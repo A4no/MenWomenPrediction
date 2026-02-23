@@ -23,7 +23,7 @@ The dataset is a collection of JPG face images.
 Because of size constraints, the dataset is not included in this repository.
 
 🔗 Dataset Link:
-(Paste your dataset link here)
+https://www.kaggle.com/datasets/snmahsa/human-images-dataset-men-and-women
 
 🧠 Model Architecture
 
@@ -39,7 +39,7 @@ Dense layers
 
 Final layer:
 
-Dense(1, activation='sigmoid')
+Dense(2, activation='softmax')
 
 ⚙️ Train / Test Split
 from sklearn.model_selection import train_test_split
@@ -57,4 +57,7 @@ Mean absolute error: 0.3533
 
 Loss Function: Binary Crossentropy
 
-(Replace these numbers with your final real results)
+Author
+
+Arno Emeksuzyan
+Aspiring ML / AI Developer
